@@ -1,0 +1,22 @@
+# ==============================
+# ARCHIVOS Y CARPETAS A IGNORAR
+# ==============================
+
+# Dependencias de Node.js
+node_modules/
+frontend/node_modules/
+services/*/node_modules/
+
+# Archivos de build
+.next/
+dist/
+build/
+
+# Archivos temporales y logs
+*.log
+.DS_Store
+.env
+
+# Carpetas del sistema
+.vscode/
+.idea/
